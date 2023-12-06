@@ -1,0 +1,35 @@
+Desafio DIO
+
+let personagem = "Elis"
+let experience = 800000
+
+if (experience < 1000){
+	console.log ("O elo alcançado é o Ferro")
+    }
+else if (experience <= 2000){
+	console.log ("O elo alcançado é o Bronze")
+    }
+else if (experience <= 5000){
+    console.log ("O elo alcançado é o Prata")
+    }
+else if (experience <= 7000){
+    console.log ("O elo alcançado é o Ouro")
+    }
+else if (experience <= 8000){
+    console.log ("O elo alcançado é o Platina")
+    }
+else if (experience <= 9000){
+    console.log ("O elo alcançado é o Ascendente")
+    }
+else if (experience <= 10000){
+    console.log ("O elo alcançado é o imortal")
+    }
+else if (experience >= 10001){
+    console.log ("O elo alcançado é o Radiante")
+    }
+    
+console.log("O Herói nomeado como " + personagem + " está no nível " + experience)
+
+if (experience >= 8001){
+	console.log ("O nível desse personagem é de mais de oito mil!!!!")
+    }
